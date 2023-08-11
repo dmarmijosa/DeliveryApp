@@ -8,9 +8,12 @@
     @include m.desktop{
         flex-direction: row;
         justify-content: space-between;
-
     }
     &__logo{
         width: 30rem;
+        margin-bottom: 5rem;
+        @include m.desktop{
+            margin-bottom: 0;
+        }
     }
 }
